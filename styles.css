@@ -2,4 +2,80 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  max-width: 450px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  background-color: #1f2937;
+  color: #fff;
+  padding-top: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-left: 6rem;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin-left: 35rem;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.jumbotron {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.right_jumbo {
+  margin-left: 15rem;
+  margin-top: 2rem;
+}
+
+.left_jumbo {
+  margin-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.jumbo_p {
+  max-width: 400px;
+}
+
+.placeholder {
+  width: 350px;
+  height: 150px;
+  background-color: lightblue;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_up_btn {
+  width: 100px;
+  height: 50px;
+  background-color: #3882f6;
+  border: none;
+  color: #fff;
 }
