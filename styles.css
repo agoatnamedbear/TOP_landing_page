@@ -139,3 +139,34 @@ h1 {
   margin-right: 300px;
   font-weight: 900;
 }
+
+.bottom {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882f6;
+  width: 60vw;
+  height: 7rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  border-radius: 8px;
+}
+
+.cta_header {
+  color: #fff;
+}
+
+.cta_btn {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fff;
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 8px;
+}
