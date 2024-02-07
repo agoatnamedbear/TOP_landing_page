@@ -2,7 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-family: sans-serif;
 }
 
 h1 {
@@ -111,4 +114,28 @@ h1 {
 .placeholder_text {
   max-width: 175px;
   text-align: center;
+}
+
+.mid_bottom {
+  height: 60vh;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  max-width: 60vw;
+  margin-bottom: 2rem;
+}
+
+.author {
+  align-self: flex-end;
+  margin-right: 300px;
+  font-weight: 900;
 }
