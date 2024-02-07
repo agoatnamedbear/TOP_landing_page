@@ -170,3 +170,12 @@ h1 {
   color: #fff;
   border-radius: 8px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: #1f2937;
+  color: #fff;
+}
